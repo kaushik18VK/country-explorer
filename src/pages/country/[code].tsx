@@ -14,6 +14,8 @@ export default function CountryPage({ country }: { country: any }) {
       <p><strong>Population:</strong> {country.population.toLocaleString()}</p>
       <p><strong>Region:</strong> {country.region}</p>
       <p><strong>Capital:</strong> {country.capital?.[0] || 'N/A'}</p>
+      <p><strong>Currency:</strong> {JSON.stringify(country?.currencies)}</p>
+      <p><strong>Languages:</strong> {JSON.stringify(country?.languages)}</p>
 
       {country.borders && country.borders.length > 0 && (
         <div className="mt-6">
