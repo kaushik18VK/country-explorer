@@ -8,7 +8,7 @@ Built with Next.js App Router, Tailwind CSS, React Context, and Jest for testing
 ## 🚀 Setup and Run Instructions
 
 1. **Clone the repository**
-git clone https://github.com/your-username/country-explorer.git
+git clone https://https://github.com/kaushik18VK/country-explorer
 cd country-explorer
 
 text
