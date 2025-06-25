@@ -104,3 +104,14 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 ## 📄 License
 
 MIT
+
+Working Login page:
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/b820af26-313c-425e-92f1-b3a36174e97f" />
+
+Home page:
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/86c67529-5dae-4a57-ab9b-14e4e51e3b91" />
+
+Favorities Page:
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/92081e8b-36ff-4431-aebd-edccd7d28081" />
+
+
