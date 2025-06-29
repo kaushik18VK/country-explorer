@@ -10,26 +10,26 @@ export default function CountryCard({country}:{country:any}){
       <p>Population: {country.population}</p>
       <p>Region: {country.region}</p>
       <p>Capital: {country.capital?.[0]}</p>
-            <div className="space-y-2">
-          <div>
-            <strong>Currencies:</strong>{' '}
-            {country.currencies
-              ? Object.entries(country.currencies)
-                  .map(([code, { name, symbol }]) => `${name} (${symbol})`)
-                  .join(', ')
-              : 'N/A'}
-          </div>
-          <div>
-            <strong>Languages:</strong>{' '}
-            {country.languages
-              ? Object.values(country.languages).join(', ')
-              : 'N/A'}
-          </div>
-        </div>
+      <div className="space-y-2">
+    <div>
+      <strong>Currencies:</strong>{' '}
+      {country.currencies
+        ? Object.entries(country.currencies)
+            .map(([code, { name, symbol }]) => `${name} (${symbol})`)
+            .join(', ')
+        : 'N/A'}
+    </div>
+    <div>
+      <strong>Languages:</strong>{' '}
+      {country.languages
+        ? Object.values(country.languages).join(', ')
+        : 'N/A'}
+    </div>
+  </div>
       <button onClick={()=>toggle(country.cca2)} className="mt-2">
         {fav ? '★' : '☆'}
       </button>
-      <Link href={`/country/${country.cca2}`}><a className="text-blue-600">Details</a></Link>
+      <Link href={`/country/${country.cca2}`} className="text-blue-600">Details</Link>
     </div>
   );
 }
